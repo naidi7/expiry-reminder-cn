@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">食品の期限リマインダー</string>
+    <string name="app_name_short">食品の期限</string>
+    <string name="n_days_ago">%1$d日前</string>
+    <string name="yesterday">昨日</string>
+    <string name="today">今日</string>
+    <string name="tomorrow">明日</string>
+    <string name="in_n_days">%1$d日後</string>
+    <string name="add_item">食品を追加</string>
+    <string name="protect_your_screen">画面をスクリーンショットや画面録画から保護する。</string>
+    <string name="edit_item">食品を編集</string>
+    <string name="food_name">食品名</string>
+    <string name="expiration_date">賞味期限</string>
+    <string name="please_select_a_date">日付を選択してください</string>
+    <string name="please_enter_a_food_name">食品名を入力してください</string>
+    <string name="insert">追加</string>
+    <string name="update">更新</string>
+    <string name="cancel">キャンセル</string>
+    <string name="share">共有</string>
+    <string name="leave_a_star_on_github">GitHubでStarを付ける</string>
+    <string name="write_a_review">レビューを書く</string>
+    <string name="source_code">ソースコード</string>
+    <string name="features">特徴</string>
+    <string name="feature_list">- 食品の賞味期限を期限の短い順に一覧表示
+\n - 食品の追加、編集、削除
+\n - バーコード スキャナーとOpen Food Facts APIを使った商品検索
+\n - 開始日
+\n - 通知</string>
+    <string name="support_this_project">プロジェクトを支援</string>
+    <string name="report_a_bug">バグを報告</string>
+    <string name="version_x">バージョン %1$s</string>
+    <string name="app_description">%1$sは、Lorenzo Vainigliおよび他の貢献者によって開発されたオープンソースプロジェクトです。\nこのアプリケーションのコードはMITライセンスに基づいて公開されており、GitHubにて入手出来ます。</string>
+    <string name="about_this_app">詳細</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="contributors_list_title">貢献者</string>
+    <string name="contributors_list_subtitle">このアプリの開発に貢献した方々です。</string>
+    <string name="back">戻る</string>
+    <string name="no_items_found">食品が見つかりませんでした</string>
+    <string name="please_insert_one">最低でも１つ挿入してください</string>
+    <string name="menu">メニュー</string>
+    <string name="settings">設定</string>
+    <string name="date_format">日付形式</string>
+    <string name="date_format_desc">食品に表示する日付形式</string>
+    <string name="choose_the_date_format">日付形式を選択してください</string>
+    <string name="locale_formats">ロケール形式</string>
+    <string name="other_formats">その他の形式</string>
+    <string name="your_food_is_expiring">食べ物の賞味期限が切れてしまいます！</string>
+    <string name="notification_time">通知時間</string>
+    <string name="notification_time_desc">
+        毎日、食品のリストが記載された通知を受け取ります：\n
+        - 賞味期限切れ\n
+        - 現在の日付で賞味期限切れとなる食品\n
+        - 賞味期限が後１日で切れる食品
+    </string>
+    <string name="dynamic_colors">ダイナミックカラー</string>
+    <string name="theme">テーマ</string>
+    <string name="light">ライト</string>
+    <string name="system">システム</string>
+    <string name="dark">ダーク</string>
+    <string name="x_deleted">%1$sが削除されました</string>
+    <string name="undo">元に戻す</string>
+    <string name="normal">通常</string>
+    <string name="bold">太字</string>
+    <string name="extra_bold">極太</string>
+    <string name="top_bar_font_style">上部バーのフォントスタイル</string>
+    <string name="behaviour">行動</string>
+    <string name="appearance">外観</string>
+    <string name="privacy">プライバシー</string>
+    <string name="send_an_email">メールを送信</string>
+    <string name="contacts">連絡先</string>
+    <string name="contacts_text">このアプリケーションに関する詳細な情報を入手したい場合、またはフィードバックの送信、バグ報告、機能リクエスト、単に開発者に連絡したい場合は、次のボタンを使用してメールを送信してください。\nバグレポートや機能リクエストがある場合は、このアプリケーションのGitHubリポジトリでissueを開くこともできます。</string>
+    <string name="list">リスト</string>
+    <string name="opening_date">開始日</string>
+    <string name="optional">任意</string>
+    <string name="time_span">期間</string>
+    <string name="please_enter_a_valid_number">有効な数値を入力してください</string>
+    <string name="ok">OK</string>
+    <string name="data_export_success">データは正常にエクスポートされました。</string>
+    <string name="data_export_error">データのエクスポート中にエラーが発生しました。</string>
+    <string name="export_data">データをエクスポート</string>
+    <string name="import_data">データをインポート</string>
+    <string name="data_exported">エクスポートされたデータ</string>
+    <string-array name="example_foods">
+        <item>卵</item>
+        <item>チーズ</item>
+        <item>牛乳</item>
+        <item>ハム</item>
+        <item>バター</item>
+        <item>きのこ</item>
+        <item>トマト</item>
+    </string-array>
+    <string-array name="screenshot_titles">
+        <item>食品を賞味期限順に並べ替え</item>
+        <item>開始日と期間を簡単に追加</item>
+        <item>動作と外観をカスタマイズ</item>
+        <item>オープンソース</item>
+        <item>ダークテーマ</item>
+        <item>ダイナミックカラー</item>
+    </string-array>
+    <string-array name="time_span">
+        <item>日後</item>
+        <item>ヶ月後</item>
+    </string-array>
+    <string name="please_scan_a_barcode">バーコードをスキャンしてください</string>
+    <string name="connection_error">接続エラー</string>
+    <string name="no_internet_connection">インターネットに接続されていません</string>
+    <string name="product_not_found">商品が見つかりません</string>
+    <string name="getting_product_info">商品情報を取得しています…</string>
+    <string name="retry">やり直す</string>
+    <string name="scanning_error">スキャンエラー</string>
+    <string name="screenshot_titles_barcode_scanner">バーコードスキャナー</string>
+    <string name="screenshot_titles_made_with_heart">♥で作られました</string>
+    <string name="apply">適用</string>
+    <string name="select_language">言語を選択</string>
+    <string name="debug_options">デバッグオプション</string>
+    <string name="language">言語</string>
+    <string name="enable_screen_protection">画面保護をオンにする</string>
+    <string name="opened">開封済み</string>
+    <string name="monochrome_icons">モノクロアイコン</string>
+    <string name="quantity">数量</string>
+    <string name="add">追加</string>
+    <string name="remove">削除</string>
+    <string name="notifications_disabled">通知が無効になっています</string>
+    <string name="notifications_disabled_message">通知を完全に無効にしました。賞味期限が近づいた食品に関するアラートを受け取るには、スマートフォンの「設定」から手動で通知を有効にする必要があります。</string>
+    <string name="open_settings">設定を開く</string>
+    <string name="search">検索…</string>
+
+    <!-- Onboarding - Navigation -->
+    <string name="onboarding_next">次へ</string>
+    <string name="onboarding_back">戻る</string>
+    <string name="onboarding_skip">スキップ</string>
+    <string name="onboarding_get_started">はじめる</string>
+
+    <!-- Onboarding - Welcome Page -->
+    <string name="onboarding_welcome_title">%1$sへようこそ！</string>
+    <string name="onboarding_welcome_description">冷蔵庫や食品棚に食べ物がたくさんあると、賞味期限や消費期限をすべて把握するのは大変です。\n\n%1$sを使えば、家にある食品とその期限を簡単に管理できます。期限が近づいている食品を確認し、食品を無駄なく使い切るのに役立ちます。</string>
+
+    <!-- Onboarding - Manage Food Page -->
+    <string name="onboarding_manage_title">食品をわかりやすく管理</string>
+    <string name="onboarding_manage_description">購入した食品とその期限を登録しましょう。食品は期限が近い順に自動で並ぶので、どれから使えばよいかひと目でわかります。\n\n食品の検索や詳細の編集もできます。食品を使ったり、新しく購入したりしたときは、リストを更新して整理しておきましょう。</string>
+
+    <!-- Onboarding - Notification Permission Page -->
+    <string name="onboarding_notifications_title">食品の期限を見逃さない</string>
+    <string name="onboarding_notifications_description">通知を有効にすると、食品の期限が近づいたときにリマインダーを受け取れます。</string>
+    <string name="onboarding_notifications_enable">通知を有効にする</string>
+    <string name="onboarding_notifications_enabled">通知が有効になりました！</string>
+    <string name="onboarding_notifications_optional">通知を有効にせずに続けることもできます。あとから設定画面で有効にできます。</string>
+
+    <!-- Onboarding - Notification Time Page -->
+    <string name="onboarding_time_title">通知する時刻を選択</string>
+    <string name="onboarding_time_description">食品の期限に関する毎日のリマインダーを、何時に受け取りたいですか？</string>
+    <string name="onboarding_time_save">通知時刻を保存</string>
+    <string name="onboarding_time_saved">通知時刻を保存しました！</string>
+
+    <!-- Onboarding - Ready Page -->
+    <string name="onboarding_ready_title">準備ができました！</string>
+    <string name="onboarding_ready_description">これで、食品とその期限を管理する準備が整いました。\n\nまずは冷蔵庫や食品棚にある食品をいくつか登録してみましょう。リストに食品を追加していくと、%1$sがどの食品から使えばよいかを確認し、期限を管理するのに役立ちます。</string>
+    <string name="onboarding_ready_hint">設定はあとからいつでも変更できます。</string>
+
+    <string name="clear_all_items">すべてのアイテムを削除</string>
+    <string name="clear_all_items_confirmation">すべてのアイテムを削除してもよろしいですか？この操作は取り消せません。</string>
+    <string name="delete_all">すべて削除</string>
+</resources>

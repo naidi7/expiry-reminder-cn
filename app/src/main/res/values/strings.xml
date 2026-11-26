@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">过期提醒</string>
+    <string name="app_name_short">过期提醒</string>
+    <string name="n_days_ago">%1$d 天前</string>
+    <string name="yesterday">昨天</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="in_n_days">%1$d 天后</string>
+    <string name="add_item">添加物品</string>
+    <string name="enable_screen_protection">开启屏幕保护</string>
+    <string name="protect_your_screen">防止他人通过截图或录屏看到你的清单。</string>
+    <string name="edit_item">编辑物品</string>
+    <string name="food_name">名称</string>
+    <string name="expiration_date">过期日期</string>
+    <string name="please_select_a_date">请选择日期</string>
+    <string name="please_enter_a_food_name">请输入名称</string>
+    <string name="insert">添加</string>
+    <string name="update">保存</string>
+    <string name="cancel">取消</string>
+    <string name="share">分享</string>
+    <string name="leave_a_star_on_github">在 GitHub 上点个星</string>
+    <string name="write_a_review">写评价</string>
+    <string name="source_code">源代码</string>
+    <string name="features">功能</string>
+    <string name="feature_list">
+        - 按到期时间排序的物品清单\n
+        - 添加、编辑、删除物品\n
+        - 食品 / 药品 / 化妆品分类筛选\n
+        - 开封日期与开封后保质期\n
+        - 每个物品可自定义提前几天提醒\n
+        - 本地通知，无需联网
+    </string>
+    <string name="support_this_project">支持这个项目</string>
+    <string name="report_a_bug">反馈问题</string>
+    <string name="version_x">版本 %1$s</string>
+    <string name="app_description">%1$s 由 Lorenzo Vainigli 和其他贡献者基于 MIT 协议开源开发。本中文分类版在其基础上改造，源码同样遵循 MIT 协议。</string>
+    <string name="about_this_app">关于应用</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="contributors_list_title">贡献者</string>
+    <string name="contributors_list_subtitle">感谢所有参与开发的人。</string>
+    <string name="back">返回</string>
+    <string name="no_items_found">还没有物品</string>
+    <string name="please_insert_one">添加一个吧</string>
+    <string name="menu">菜单</string>
+    <string name="settings">设置</string>
+    <string name="date_format">日期格式</string>
+    <string name="date_format_desc">选择列表中日期的显示格式。</string>
+    <string name="choose_the_date_format">选择日期格式</string>
+    <string name="locale_formats">本地格式</string>
+    <string name="other_formats">其他格式</string>
+    <string name="your_food_is_expiring">有物品快过期啦！</string>
+    <string name="notification_time">提醒时间</string>
+    <string name="notification_time_desc">
+        每天在设定时间检查一次：当物品进入你设置的提前提醒天数内，或当天到期时，会收到一条汇总通知。\n
+        提醒完全在本地运行，不需要联网。
+    </string>
+    <string name="dynamic_colors">动态配色</string>
+    <string name="theme">主题</string>
+    <string name="light">浅色</string>
+    <string name="system">跟随系统</string>
+    <string name="dark">深色</string>
+    <string name="x_deleted">已删除 %1$s</string>
+    <string name="undo">撤销</string>
+    <string name="normal">常规</string>
+    <string name="bold">粗体</string>
+    <string name="extra_bold">特粗</string>
+    <string name="top_bar_font_style">标题字体</string>
+    <string name="behaviour">行为</string>
+    <string name="appearance">外观</string>
+    <string name="privacy">隐私</string>
+    <string name="send_an_email">发送邮件</string>
+    <string name="contacts">联系方式</string>
+    <string name="contacts_text">如果你想了解更多信息、反馈问题或提出建议，可以点击下面的按钮发送邮件，也可以在 GitHub 仓库中提交 issue。</string>
+    <string name="list">清单</string>
+    <string name="opening_date">开封日期</string>
+    <string name="optional">可选</string>
+    <string name="time_span">开封后可使用</string>
+    <string name="please_enter_a_valid_number">请输入有效数字</string>
+    <string name="ok">确定</string>
+    <string name="data_export_success">数据导出成功。</string>
+    <string name="data_export_error">导出数据时出错。</string>
+    <string name="export_data">导出数据</string>
+    <string name="import_data">导入数据</string>
+    <string name="clear_all_items" tools:ignore="MissingTranslation">清空所有物品</string>
+    <string name="clear_all_items_confirmation" tools:ignore="MissingTranslation">确定要删除所有物品吗？此操作无法撤销。</string>
+    <string name="delete_all" tools:ignore="MissingTranslation">全部删除</string>
+    <string name="data_exported">数据已导出</string>
+    <string name="connection_error">连接错误</string>
+    <string name="getting_product_info">正在获取商品信息…</string>
+    <string name="no_internet_connection">没有网络连接</string>
+    <string name="please_scan_a_barcode">请扫描条形码</string>
+    <string name="product_not_found">未找到商品</string>
+    <string name="retry">重试</string>
+    <string name="scanning_error">扫描失败</string>
+    <string name="opened">已开封</string>
+    <string name="monochrome_icons">单色图标</string>
+    <string name="category">分类</string>
+    <string name="category_all">全部</string>
+    <string name="category_food">食品</string>
+    <string name="category_medicine">药品</string>
+    <string name="category_cosmetics">化妆品</string>
+    <string name="notify_days_before">提前几天提醒</string>
+    <string-array name="example_foods">
+        <item>鸡蛋</item>
+        <item>奶酪</item>
+        <item>牛奶</item>
+        <item>火腿</item>
+        <item>黄油</item>
+        <item>蘑菇</item>
+        <item>番茄</item>
+    </string-array>
+    <string-array name="screenshot_titles">
+        <item>按到期时间排序的清单</item>
+        <item>支持开封日期和保质期</item>
+        <item>自定义行为与外观</item>
+        <item>开源项目</item>
+        <item>深色主题</item>
+        <item>动态配色</item>
+    </string-array>
+    <string name="screenshot_titles_barcode_scanner">条形码扫描</string>
+    <string name="screenshot_titles_made_with_heart">用心制作 ❤️</string>
+    <string name="apply">应用</string>
+    <string name="select_language">选择语言</string>
+    <string name="debug_options">调试选项</string>
+    <string name="language">语言</string>
+    <string-array name="time_span">
+        <item>天</item>
+        <item>月</item>
+    </string-array>
+    <string name="quantity">数量</string>
+    <string name="add">增加</string>
+    <string name="remove">减少</string>
+    <string name="notifications_disabled">通知已关闭</string>
+    <string name="notifications_disabled_message">你已永久关闭通知。要接收过期提醒，需要到手机「设置」中手动开启。</string>
+    <string name="open_settings">打开设置</string>
+    <string name="search">搜索…</string>
+
+    <!-- 引导页 - 导航 -->
+    <string name="onboarding_next">下一步</string>
+    <string name="onboarding_back">上一步</string>
+    <string name="onboarding_skip">跳过</string>
+    <string name="onboarding_get_started">开始使用</string>
+
+    <!-- 引导页 - 欢迎 -->
+    <string name="onboarding_welcome_title">欢迎使用 %1$s！</string>
+    <string name="onboarding_welcome_description">记住各种物品的使用期限并不容易，尤其当冰箱和柜子里塞满了东西。\n\n%1$s 帮你记录家里有什么、留意即将到期的物品，在浪费之前及时用掉它们。</string>
+
+    <!-- 引导页 - 管理物品 -->
+    <string name="onboarding_manage_title">物品井井有条</string>
+    <string name="onboarding_manage_description">添加你购买的物品，填写过期日期。清单会自动按日期排序，让你一眼看出哪些该先用。\n\n你还可以搜索物品、修改信息，用完后随时更新清单。</string>
+
+    <!-- 引导页 - 通知权限 -->
+    <string name="onboarding_notifications_title">不再错过任何到期日</string>
+    <string name="onboarding_notifications_description">开启通知，在物品到期前收到提醒。</string>
+    <string name="onboarding_notifications_enable">开启通知</string>
+    <string name="onboarding_notifications_enabled">通知已开启！</string>
+    <string name="onboarding_notifications_optional">你也可以暂时跳过，稍后在设置中开启。</string>
+
+    <!-- 引导页 - 提醒时间 -->
+    <string name="onboarding_time_title">选择提醒时间</string>
+    <string name="onboarding_time_description">你希望每天什么时候收到到期提醒？</string>
+    <string name="onboarding_time_save">保存提醒时间</string>
+    <string name="onboarding_time_saved">提醒时间已保存！</string>
+
+    <!-- 引导页 - 准备就绪 -->
+    <string name="onboarding_ready_title">一切就绪！</string>
+    <string name="onboarding_ready_description">现在可以开始记录物品和过期日期了。\n\n先从冰箱或柜子里的几样东西开始吧，%1$s 会帮你看出哪些该先用。</string>
+    <string name="onboarding_ready_hint">你随时可以在设置中调整偏好。</string>
+</resources>

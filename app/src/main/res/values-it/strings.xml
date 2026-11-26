@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scadenze Alimenti</string>
+    <string name="app_name_short">@string/app_name</string>
+    <string name="n_days_ago">%1$d giorni fa</string>
+    <string name="yesterday">Ieri</string>
+    <string name="today">Oggi</string>
+    <string name="tomorrow">Domani</string>
+    <string name="in_n_days">Tra %1$d giorni</string>
+    <string name="add_item">Aggiungi elemento</string>
+    <string name="edit_item">Modifica elemento</string>
+    <string name="food_name">Nome alimento</string>
+    <string name="expiration_date">Data di scadenza</string>
+    <string name="please_select_a_date">Per favore seleziona una data</string>
+    <string name="please_enter_a_food_name">Si prega di inserire un nome alimento</string>
+    <string name="insert">Inserisci</string>
+    <string name="update">Aggiorna</string>
+    <string name="cancel">Cancella</string>
+    <string name="share">Condividi</string>
+    <string name="leave_a_star_on_github">Lascia una stella su GitHub</string>
+    <string name="write_a_review">Scrivi una recensione</string>
+    <string name="source_code">Codice sorgente</string>
+    <string name="features">Funzionalità</string>
+    <string name="feature_list">
+        - Visualizza un elenco con le date di scadenza degli alimenti in ordine crescente di tempo\n
+        - Aggiungi, modifica ed elimina elementi\n
+        - Recupero di prodotti tramite scansione di codici a barre e API di Open Food Facts\n
+        - Data di apertura\n
+        - Notifiche
+    </string>
+    <string name="support_this_project">Supporta questo progetto</string>
+    <string name="report_a_bug">Segnala un bug</string>
+    <string name="version_x">Versione %1$s</string>
+    <string name="app_description">%1$s è un progetto open source sviluppato da Lorenzo Vainigli e altri contributori.\nIl codice di questa applicazione è pubblicato con licenza MIT e disponibile su GitHub.</string>
+    <string name="about_this_app">Informazioni app</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="contributors_list_title">Contributori</string>
+    <string name="contributors_list_subtitle">Queste sono le persone che hanno contribuito allo sviluppo di questa app.</string>
+    <string name="back">Indietro</string>
+    <string name="no_items_found">Nessun elemento trovato</string>
+    <string name="please_insert_one">Per favore inserirne uno</string>
+    <string name="menu">Menù</string>
+    <string name="settings">Impostazioni</string>
+    <string name="date_format">Formato data</string>
+    <string name="date_format_desc">Il formato della data che vuoi vedere sugli alimenti.</string>
+    <string name="choose_the_date_format">Scegli il formato della data</string>
+    <string name="locale_formats">Formati locali</string>
+    <string name="other_formats">Altri formati</string>
+    <string name="your_food_is_expiring">Il tuo cibo sta scadendo!</string>
+    <string name="notification_time">Orario delle notifiche</string>
+    <string name="notification_time_desc">
+        Ogni giorno riceverai una notifica con la lista dei tuoi alimenti:\n
+        - già scaduti\n
+        - che scadono il giorno corrente\n
+        - a cui rimane un giorno prima della loro scadenza.
+    </string>
+    <string name="dynamic_colors">Colori dinamici</string>
+    <string name="theme">Tema</string>
+    <string name="light">Chiaro</string>
+    <string name="system">Sistema</string>
+    <string name="dark">Scuro</string>
+    <string name="x_deleted">%1$s eliminato</string>
+    <string name="undo">Annulla</string>
+    <string name="normal">Normale</string>
+    <string name="bold">Grassetto</string>
+    <string name="extra_bold">Massiccio</string>
+    <string name="top_bar_font_style">Stile titolo barra superiore</string>
+    <string name="behaviour">Comportamento</string>
+    <string name="appearance">Aspetto</string>
+    <string name="send_an_email">Invia un\'e-mail</string>
+    <string name="contacts">Contatti</string>
+    <string name="contacts_text">Se desideri ottenere maggiori informazioni su questa applicazione, inviare un feedback, segnalare un bug, richiedere una funzionalità, o semplicemente contattare lo sviluppatore, invia un\'e-mail utilizzando il seguente pulsante.\nIn caso di segnalazione di bug e richieste di funzionalità, è possibile aprire una issue sul repository GitHub di questa applicazione.</string>
+    <string name="list">Lista</string>
+    <string name="opening_date">Data di apertura</string>
+    <string name="optional">opzionale</string>
+    <string name="time_span">Tempo residuo</string>
+    <string name="please_enter_a_valid_number">Inserire un numero valido</string>
+    <string name="ok">OK</string>
+    <string name="data_export_success">Dati esportati correttamente.</string>
+    <string name="data_export_error">Si è verificato un errore durante l\'esportazione dei dati.</string>
+    <string name="export_data">Esporta dati</string>
+    <string name="import_data">Importa dati</string>
+    <string name="clear_all_items">Cancella tutti gli elementi</string>
+    <string name="clear_all_items_confirmation">Sei sicuro di voler eliminare tutti gli elementi? Questa azione non può essere annullata.</string>
+    <string name="delete_all">Elimina tutti</string>
+    <string name="data_exported">Dati esportati</string>
+    <string name="connection_error">Errore di connessione</string>
+    <string name="getting_product_info">Recupero info prodotto…</string>
+    <string name="no_internet_connection">Nessuna connessione ad internet</string>
+    <string name="please_scan_a_barcode">Scansiona un codice a barre</string>
+    <string name="product_not_found">Prodotto non trovato</string>
+    <string name="retry">Riprova</string>
+    <string name="scanning_error">Errore di scansione</string>
+    <string name="opened">Aperto</string>
+    <string name="enable_screen_protection">Attiva protezione schermo</string>
+    <string name="protect_your_screen">Proteggi la tua schermata dagli screenshot e dalla registrazione dello schermo.</string>
+    <string name="privacy">Privacy</string>
+    <string-array name="example_foods">
+        <item>Uova</item>
+        <item>Formaggio</item>
+        <item>Latte</item>
+        <item>Prosciutto</item>
+        <item>Burro</item>
+        <item>Funghi</item>
+        <item>Pomodori</item>
+    </string-array>
+    <string-array name="screenshot_titles">
+        <item>I tuoi alimenti ordinati per data di scadenza</item>
+        <item>Inserimento semplice con data di apertura e tempo residuo</item>
+        <item>Personalizza comportamento e aspetto</item>
+        <item>Open source</item>
+        <item>Tema scuro</item>
+        <item>Colori dinamici</item>
+    </string-array>
+    <string name="screenshot_titles_barcode_scanner">Scanner di codici a barre</string>
+    <string name="screenshot_titles_made_with_heart">Made with ❤️</string>
+    <string name="apply">Applica</string>
+    <string name="select_language">Seleziona lingua</string>
+    <string name="debug_options">Opzioni di debug</string>
+    <string name="language">Lingua</string>
+    <string-array name="time_span">
+        <item>Giorni</item>
+        <item>Mesi</item>
+    </string-array>
+    <string name="monochrome_icons">Icone monocromatiche</string>
+    <string name="quantity">Quantità</string>
+    <string name="add">Aggiungi</string>
+    <string name="remove">Rimuovi</string>
+    <string name="notifications_disabled">Notifiche disabilitate</string>
+    <string name="notifications_disabled_message">Hai disattivato le notifiche in modo permanente. Per ricevere avvisi sulla scadenza degli alimenti, devi attivarle manualmente dalle impostazioni del telefono.</string>
+    <string name="open_settings">Apri impostazioni</string>
+    <string name="search">Cerca…</string>
+
+    <!-- Onboarding - Navigation -->
+    <string name="onboarding_next">Avanti</string>
+    <string name="onboarding_back">Indietro</string>
+    <string name="onboarding_skip">Salta</string>
+    <string name="onboarding_get_started">Inizia</string>
+
+    <!-- Onboarding - Welcome Page -->
+    <string name="onboarding_welcome_title">Ti diamo il benvenuto in %1$s!</string>
+    <string name="onboarding_welcome_description">Tenere traccia delle date di scadenza non è sempre facile, soprattutto quando il frigorifero e la dispensa sono pieni.\n\n%1$s ti aiuta a ricordare quali alimenti hai in casa, a tenere d\'occhio le scadenze imminenti e a utilizzare al meglio il cibo prima che venga sprecato.</string>
+
+    <!-- Onboarding - Manage Food Page -->
+    <string name="onboarding_manage_title">I tuoi alimenti, in ordine</string>
+    <string name="onboarding_manage_description">Aggiungi gli alimenti che acquisti e inserisci la loro data di scadenza. Verranno ordinati automaticamente per data, così potrai vedere facilmente quali consumare prima.\n\nPuoi anche cercare gli alimenti, modificarne i dettagli e mantenere aggiornata la tua lista man mano che li consumi o ne acquisti di nuovi.</string>
+
+    <!-- Onboarding - Notification Permission Page -->
+    <string name="onboarding_notifications_title">Non dimenticare le scadenze</string>
+    <string name="onboarding_notifications_description">Attiva le notifiche per ricevere promemoria prima che i tuoi alimenti scadano.</string>
+    <string name="onboarding_notifications_enable">Attiva le notifiche</string>
+    <string name="onboarding_notifications_enabled">Le notifiche sono attive!</string>
+    <string name="onboarding_notifications_optional">Puoi continuare anche senza notifiche e attivarle in seguito dalle Impostazioni.</string>
+
+    <!-- Onboarding - Notification Time Page -->
+    <string name="onboarding_time_title">Scegli l’orario dei promemoria</string>
+    <string name="onboarding_time_description">A che ora preferisci ricevere i promemoria giornalieri sulle scadenze dei tuoi alimenti?</string>
+    <string name="onboarding_time_save">Salva l’orario</string>
+    <string name="onboarding_time_saved">Orario dei promemoria salvato!</string>
+
+    <!-- Onboarding - Ready Page -->
+    <string name="onboarding_ready_title">È tutto pronto!</string>
+    <string name="onboarding_ready_description">Ora puoi iniziare a tenere traccia dei tuoi alimenti e delle relative scadenze.\n\nComincia aggiungendo qualche alimento dal frigorifero o dalla dispensa. Man mano che la lista cresce, %1$s ti aiuterà a capire cosa consumare prima e a tenere sotto controllo le scadenze.</string>
+    <string name="onboarding_ready_hint">Puoi modificare le tue preferenze in qualsiasi momento dalle Impostazioni.</string>
+</resources>

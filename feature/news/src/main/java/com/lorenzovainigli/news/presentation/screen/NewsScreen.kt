@@ -1,0 +1,201 @@
+package com.lorenzovainigli.news.presentation.screen
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.pulltorefresh.PullToRefreshBox
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import com.lorenzovainigli.news.R
+import com.lorenzovainigli.news.domain.model.NewsItem
+import com.lorenzovainigli.news.presentation.component.NewsContent
+import com.lorenzovainigli.news.presentation.state.NewsUiState
+import java.time.Instant
+
+@Composable
+fun NewsScreen(
+    uiState: NewsUiState,
+    onNewsClick: (NewsItem) -> Unit,
+    onMarkAsRead: (NewsItem) -> Unit,
+    onMarkAsUnread: (NewsItem) -> Unit,
+    onMarkAllAsRead: () -> Unit,
+    onRefresh: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    when {
+        uiState.isLoading -> {
+            Box(
+                modifier = modifier.fillMaxSize(),
+                contentAlignment = Alignment.Center
+            ) {
+                CircularProgressIndicator()
+            }
+        }
+        else -> {
+            PullToRefreshBox(
+                isRefreshing = uiState.isRefreshing,
+                onRefresh = onRefresh,
+                modifier = modifier.fillMaxSize()
+            ) {
+                when {
+                    uiState.errorMessageResId != null -> {
+                        Column(
+                            modifier = Modifier.fillMaxSize(),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            verticalArrangement = Arrangement.Center
+                        ) {
+                            Text(
+                                text = stringResource(uiState.errorMessageResId)
+                            )
+
+                            Spacer(modifier = Modifier.height(12.dp))
+
+                            IconButton(
+                                onClick = onRefresh,
+                                enabled = !uiState.isRefreshing
+                            ) {
+                                if (uiState.isRefreshing) {
+                                    CircularProgressIndicator(
+                                        modifier = Modifier.size(24.dp),
+                                        strokeWidth = 2.dp
+                                    )
+                                } else {
+                                    Icon(
+                                        imageVector = Icons.Default.Refresh,
+                                        contentDescription = stringResource(R.string.news_retry)
+                                    )
+                                }
+                            }
+                        }
+                    }
+                    uiState.news.isEmpty() -> {
+                        Column(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .verticalScroll(rememberScrollState()),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            verticalArrangement = Arrangement.Center
+                        ) {
+                            Text(
+                                text = stringResource(R.string.news_empty)
+                            )
+
+                            Spacer(modifier = Modifier.height(8.dp))
+
+                            Text(
+                                text = stringResource(R.string.news_pull_to_refresh),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
+                    else -> {
+                        NewsContent(
+                            uiState = uiState,
+                            onNewsClick = onNewsClick,
+                            onMarkAsRead = onMarkAsRead,
+                            onMarkAsUnread = onMarkAsUnread,
+                            onMarkAllAsRead = onMarkAllAsRead
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun NewsScreenLoadingPreview() {
+    NewsScreen(
+        uiState = NewsUiState(
+            isLoading = true
+        ),
+        onNewsClick = {},
+        onMarkAllAsRead = {},
+        onMarkAsRead = {},
+        onMarkAsUnread = {},
+        onRefresh = {}
+    )
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun NewsScreenEmptyPreview() {
+    NewsScreen(
+        uiState = NewsUiState(
+            isLoading = false,
+            news = emptyList()
+        ),
+        onNewsClick = {},
+        onMarkAllAsRead = {},
+        onMarkAsRead = {},
+        onMarkAsUnread = {},
+        onRefresh = {}
+    )
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun NewsScreenErrorPreview() {
+    NewsScreen(
+        uiState = NewsUiState(
+            errorMessageResId = R.string.connection_error
+        ),
+        onNewsClick = {},
+        onMarkAllAsRead = {},
+        onMarkAsRead = {},
+        onMarkAsUnread = {},
+        onRefresh = {}
+    )
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun NewsScreenContentPreview() {
+    NewsScreen(
+        uiState = NewsUiState(
+            isLoading = false,
+            news = listOf(
+                NewsItem(
+                    id = "1",
+                    title = "Food Expiration Dates 2.9.0",
+                    description = "Promemoria anticipati, miglioramenti alle notifiche e correzioni minori.",
+                    url = "https://example.com/news/2-9-0",
+                    publishedAt = Instant.now(),
+                    isRead = false
+                ),
+                NewsItem(
+                    id = "2",
+                    title = "Food Expiration Dates 2.8.0",
+                    description = "Nuove funzionalità e miglioramenti alla gestione degli alimenti.",
+                    url = "https://example.com/news/2-8-0",
+                    publishedAt = Instant.now(),
+                    isRead = true
+                )
+            )
+        ),
+        onNewsClick = {},
+        onMarkAllAsRead = {},
+        onMarkAsRead = {},
+        onMarkAsUnread = {},
+        onRefresh = {}
+    )
+}

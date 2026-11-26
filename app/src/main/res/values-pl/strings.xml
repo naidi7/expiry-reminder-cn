@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Expiration Dates</string>
+    <string name="app_name_short">Food Expirations</string>
+    <string name="n_days_ago">%1$d dni temu</string>
+    <string name="yesterday">Wczoraj</string>
+    <string name="today">Dziś</string>
+    <string name="tomorrow">Jutro</string>
+    <string name="in_n_days">Za %1$d dni</string>
+    <string name="add_item">Dodaj produkt</string>
+    <string name="edit_item">Edytuj produkt</string>
+    <string name="food_name">Nazwa</string>
+    <string name="expiration_date">Termin przydatności</string>
+    <string name="please_select_a_date">Proszę wybrać datę</string>
+    <string name="please_enter_a_food_name">Proszę wprowadzić nazwę produktu</string>
+    <string name="insert">Wprowadź</string>
+    <string name="update">Zaaktualizuj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="share">Udostępnij</string>
+    <string name="leave_a_star_on_github">Dodaj gwiazdkę na platformie GitHub</string>
+    <string name="write_a_review">Wystaw opinię</string>
+    <string name="source_code">Kod źródłowy</string>
+    <string name="features">Funkcje</string>
+    <string name="feature_list">- Wyświetlanie listy z datami ważności żywności w rosnącej kolejności czasowej
+\n - Dodawanie, edytowanie i usuwanie produktów
+\n - Rozpoznawanie produktów za pomocą czytnika kodów kreskowych i API Open Food Facts
+\n - Data otwarcia produktu
+\n - Powiadomienia</string>
+    <string name="support_this_project">Wesprzyj ten projekt</string>
+    <string name="report_a_bug">Zgłoś błąd</string>
+    <string name="version_x">Wersja %1$s</string>
+    <string name="app_description">%1$s to projekt open source rozwijany przez Lorenzo Vainigli i innych współtwórców.\nKod tej aplikacji jest udostępniany na licencji MIT i dostępny w serwisie GitHub.</string>
+    <string name="about_this_app">Informacje o tej aplikacji</string>
+    <string name="privacy_policy">Polityka prywatności</string>
+    <string name="contributors_list_title">Współtwórcy</string>
+    <string name="contributors_list_subtitle">To są osoby, które przyczyniły się do rozwoju tej aplikacji.</string>
+    <string name="back">Powrót</string>
+    <string name="no_items_found">Nie znaleziono produktów</string>
+    <string name="please_insert_one">Dodaj pierwszy produkt</string>
+    <string name="menu">Menu</string>
+    <string name="settings">Ustawienia</string>
+    <string name="date_format">Format daty</string>
+    <string name="date_format_desc">Format daty, który ma być widoczny przy produktach.</string>
+    <string name="choose_the_date_format">Wybierz format daty</string>
+    <string name="locale_formats">Formaty regionalne</string>
+    <string name="other_formats">Inne formaty</string>
+    <string name="your_food_is_expiring">Twoje jedzenie traci ważność!</string>
+    <string name="notification_time">Czas powiadamiania</string>
+    <string name="notification_time_desc">Każdego dnia otrzymasz powiadomienie z listą swoich produktów:\n - których termin ważności już minął\n - których termin ważności upływa dzisiaj\n - które stracą ważność za jeden dzień.</string>
+    <string name="dynamic_colors">Używaj kolorów systemu</string>
+    <string name="theme">Motyw</string>
+    <string name="light">Jasny</string>
+    <string name="system">Systemowy</string>
+    <string name="dark">Ciemny</string>
+    <string name="x_deleted">Usunięto %1$s</string>
+    <string name="undo">Przywróć</string>
+    <string name="normal">Normalna</string>
+    <string name="bold">Pogrubiona</string>
+    <string name="extra_bold">Bardzo pogrubiona</string>
+    <string name="top_bar_font_style">Styl czcionki dla górnego paska</string>
+    <string name="behaviour">Sposób działania</string>
+    <string name="appearance">Wygląd</string>
+    <string name="send_an_email">Wyślij wiadomość e-mail</string>
+    <string name="contacts">Kontakt</string>
+    <string name="contacts_text">Jeśli chcesz dowiedzieć się więcej o tej aplikacji, przesłać opinię, zgłosić błąd, zasugerować nową funkcję lub po prostu skontaktować się z deweloperem, wyślij wiadomość e-mail, korzystając z poniższego przycisku.\nW przypadku zgłoszeń błędów i propozycji nowych funkcji możesz też otworzyć zgłoszenie w repozytorium GitHub tej aplikacji.</string>
+    <string name="list">Lista</string>
+    <string name="opening_date">Data otwarcia</string>
+    <string name="optional">opcjonalnie</string>
+    <string name="time_span">Zakres czasu</string>
+    <string name="please_enter_a_valid_number">Proszę wprowadzić prawidłowy numer</string>
+    <string name="ok">OK</string>
+    <string name="data_export_success">Dane zostały pomyślnie wyeksportowane.</string>
+    <string name="data_export_error">Wystąpił błąd podczas eksportu danych.</string>
+    <string name="export_data">Eksportuj dane</string>
+    <string name="import_data">Importuj dane</string>
+    <string name="data_exported">Wyeksportowane dane</string>
+    <string-array name="example_foods">
+        <item>Jaja</item>
+        <item>Ser</item>
+        <item>Mleko</item>
+        <item>Szynka</item>
+        <item>Masło</item>
+        <item>Grzyby</item>
+        <item>Pomidory</item>
+    </string-array>
+    <string-array name="screenshot_titles">
+        <item>Twoje artykuły spożywcze posortowane według daty ważności</item>
+        <item>Łatwe wprowadzanie daty i godziny otwarcia</item>
+        <item>Dostosowywanie zachowania i wyglądu</item>
+        <item>Otwarty kod źródłowy</item>
+        <item>Ciemny motyw</item>
+        <item>Możliwość użycia kolorów systemowych</item>
+    </string-array>
+    <string-array name="time_span">
+        <item>Dni</item>
+        <item>Miesiące</item>
+    </string-array>
+    <string name="connection_error">Błąd połączenia</string>
+    <string name="getting_product_info">Pobieranie informacji o produkcie…</string>
+    <string name="no_internet_connection">Brak połączenia z Internetem</string>
+    <string name="please_scan_a_barcode">Zeskanuj kod kreskowy produktu</string>
+    <string name="product_not_found">Nie znaleziono produktu</string>
+    <string name="scanning_error">Błąd podczas skanowania</string>
+    <string name="retry">Spróbuj ponownie</string>
+    <string name="apply">Aplikuj</string>
+    <string name="select_language">Wybierz język</string>
+    <string name="debug_options">Opcje debugowania</string>
+    <string name="language">Język</string>
+    <string name="screenshot_titles_barcode_scanner">Skaner kodów kreskowych</string>
+    <string name="enable_screen_protection">Włącz ochronę danych</string>
+    <string name="protect_your_screen">Zablokuj możliwość robienia zrzutów ekranu i nagrywania ekranu.</string>
+    <string name="privacy">Prywatność</string>
+    <string name="opened">Otwarte</string>
+    <string name="screenshot_titles_made_with_heart">Zrobione z ❤️</string>
+    <string name="monochrome_icons">Ikony monochromatyczne</string>
+    <string name="quantity">Ilość</string>
+    <string name="add">Dodaj</string>
+    <string name="remove">Usuń</string>
+    <string name="search">Szukaj…</string>
+
+
+    <!-- Onboarding - Navigation -->
+    <string name="onboarding_next">Dalej</string>
+    <string name="onboarding_back">Wstecz</string>
+    <string name="onboarding_skip">Pomiń</string>
+    <string name="onboarding_get_started">Rozpocznij</string>
+
+    <!-- Onboarding - Welcome Page -->
+    <string name="onboarding_welcome_title">Witamy w %1$s!</string>
+    <string name="onboarding_welcome_description">Kontrolowanie terminów ważności produktów spożywczych nie zawsze jest łatwe, szczególnie gdy lodówka i spiżarnia są pełne.\n\n%1$s pomaga sprawdzać, jakie produkty masz w domu, śledzić zbliżające się terminy ważności i lepiej wykorzystywać żywność, zanim się zmarnuje.</string>
+
+    <!-- Onboarding - Manage Food Page -->
+    <string name="onboarding_manage_title">Twoje produkty pod kontrolą</string>
+    <string name="onboarding_manage_description">Dodawaj kupione produkty i wprowadzaj ich terminy ważności. Produkty będą automatycznie sortowane według daty, dzięki czemu łatwo sprawdzisz, które należy zużyć w pierwszej kolejności.\n\nMożesz także wyszukiwać produkty, edytować ich szczegóły i aktualizować listę w miarę zużywania żywności lub robienia nowych zakupów.</string>
+
+    <!-- Onboarding - Notification Permission Page -->
+    <string name="onboarding_notifications_title">Nie przegap terminów ważności</string>
+    <string name="onboarding_notifications_description">Włącz powiadomienia, aby otrzymywać przypomnienia przed upływem terminów ważności produktów.</string>
+    <string name="onboarding_notifications_enable">Włącz powiadomienia</string>
+    <string name="onboarding_notifications_enabled">Powiadomienia są włączone!</string>
+    <string name="onboarding_notifications_optional">Możesz kontynuować bez powiadomień i włączyć je później w ustawieniach.</string>
+
+    <!-- Onboarding - Notification Time Page -->
+    <string name="onboarding_time_title">Wybierz godzinę przypomnień</string>
+    <string name="onboarding_time_description">O której godzinie chcesz otrzymywać codzienne przypomnienia o terminach ważności produktów?</string>
+    <string name="onboarding_time_save">Zapisz godzinę</string>
+    <string name="onboarding_time_saved">Godzina przypomnień została zapisana!</string>
+
+    <!-- Onboarding - Ready Page -->
+    <string name="onboarding_ready_title">Wszystko gotowe!</string>
+    <string name="onboarding_ready_description">Możesz już zacząć kontrolować swoje produkty spożywcze i ich terminy ważności.\n\nNa początek dodaj kilka produktów z lodówki lub spiżarni. W miarę rozbudowy listy %1$s pomoże Ci ustalić, co warto zużyć najpierw, i śledzić terminy ważności produktów.</string>
+    <string name="onboarding_ready_hint">W każdej chwili możesz zmienić swoje preferencje w ustawieniach.</string>
+
+    <string name="clear_all_items">Usuń wszystkie elementy</string>
+    <string name="clear_all_items_confirmation">Czy na pewno chcesz usunąć wszystkie elementy? Tej operacji nie można cofnąć.</string>
+    <string name="delete_all">Usuń wszystko</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lebensmittelverfallsdatum</string>
+    <string name="app_name_short">Lebensmittelverfall</string>
+    <string name="n_days_ago">Vor %1$d Tag(en)</string>
+    <string name="yesterday">Gestern</string>
+    <string name="today">Heute</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="in_n_days">In %1$d Tag(en)</string>
+    <string name="add_item">Eintrag hinzufügen</string>
+    <string name="edit_item">Eintrag bearbeiten</string>
+    <string name="food_name">Lebensmittelname</string>
+    <string name="expiration_date">Verfallsdatum</string>
+    <string name="please_select_a_date">Bitte Datum auswählen</string>
+    <string name="please_enter_a_food_name">Bitte geben Sie einen Lebensmittelnamen</string>
+    <string name="insert">Einfügen</string>
+    <string name="update">Aktualisieren</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="share">Teilen</string>
+    <string name="leave_a_star_on_github">Einen Stern auf GitHub hinterlassen</string>
+    <string name="write_a_review">Eine Rezension schreiben</string>
+    <string name="source_code">Quelltext</string>
+    <string name="features">Funktionen</string>
+    <string name="feature_list">- Anzeige einer Liste mit Lebensmittelverfallsdaten in aufsteigender zeitlicher Reihenfolge \n - Einträge hinzufügen, bearbeiten und löschen \n - Produktabfrage mittels Strichcodescanner und Open Food Facts API \n - Öffnungsdatum \n - Benachrichtigungen</string>
+    <string name="support_this_project">Dieses Projekt unterstützen</string>
+    <string name="report_a_bug">Fehler melden</string>
+    <string name="version_x">Version %1$s</string>
+    <string name="app_description">%1$s ist ein Open-Source-Projekt, das von Lorenzo Vainigli und anderen Mitwirkenden entwickelt wurde.\nDer Code dieser Anwendung wird unter der MIT-Lizenz veröffentlicht und ist auf GitHub verfügbar.</string>
+    <string name="about_this_app">Über diese App</string>
+    <string name="privacy_policy">Datenschutzbestimmungen</string>
+    <string name="contributors_list_title">Mitwirkende</string>
+    <string name="contributors_list_subtitle">Dies sind die Personen, die zur Entwicklung dieser App beigetragen haben.</string>
+    <string name="back">Zurück</string>
+    <string name="no_items_found">Keine Einträge gefunden</string>
+    <string name="please_insert_one">Bitte eins einfügen</string>
+    <string name="menu">Menü</string>
+    <string name="settings">Einstellungen</string>
+    <string name="date_format">Datumsformat</string>
+    <string name="date_format_desc">Das Datumsformat, dass für Einträge verwendet wird.</string>
+    <string name="choose_the_date_format">Das Datumsformat auswählen</string>
+    <string name="locale_formats">Lokale Formate</string>
+    <string name="other_formats">Andere Formate</string>
+    <string name="your_food_is_expiring">Ihre Lebensmittel verfallen!</string>
+    <string name="notification_time">Zeitpunkt der Benachrichtigung</string>
+    <string name="notification_time_desc">
+        Sie erhalten täglich eine Benachrichtigung mit einer Liste Ihrer Einträge:\n
+        - bereits abgelaufen\n
+        - die heute ablaufen\n
+        - die morgen ablaufen werden.
+    </string>
+    <string name="dynamic_colors">Dynamische Farben</string>
+    <string name="theme">Farbschema</string>
+    <string name="light">Hell</string>
+    <string name="system">System</string>
+    <string name="dark">Dunkel</string>
+    <string name="x_deleted">%1$s gelöscht</string>
+    <string name="undo">Rückgängig</string>
+    <string name="normal">Normal</string>
+    <string name="bold">Fett</string>
+    <string name="extra_bold">Extrafett</string>
+    <string name="top_bar_font_style">Schriftstärke in der oberen Leiste</string>
+    <string name="behaviour">Verhalten</string>
+    <string name="appearance">Aussehen</string>
+    <string name="send_an_email">E-Mail senden</string>
+    <string name="contacts_text">Wenn Sie weitere Informationen zu dieser Anwendung erhalten, Feedback senden, einen Fehler melden, eine Funktion anfordern oder einfach den Entwickler kontaktieren möchten, senden Sie bitte eine E-Mail über die folgende Schaltfläche.\nWenn Sie Fehlerberichte und Funktionsanfragen haben, können Sie auch ein Issue im GitHub-Repository dieser Anwendung öffnen.</string>
+    <string name="list">Liste</string>
+    <string name="opening_date">Öffnungsdatum</string>
+    <string name="optional">Optional</string>
+    <string name="time_span">Zeitspanne</string>
+    <string name="please_enter_a_valid_number">Bitte geben Sie eine gültige Nummer ein</string>
+    <string name="ok">OK</string>
+    <string name="data_export_success">Daten erfolgreich exportiert.</string>
+    <string name="data_export_error">Beim Datenexport ist ein Fehler aufgetreten.</string>
+    <string name="export_data">Daten exportieren</string>
+    <string name="import_data">Daten importieren</string>
+    <string name="data_exported">Daten exportiert</string>
+    <string-array name="example_foods">
+        <item>Eier</item>
+        <item>Käse</item>
+        <item>Milch</item>
+        <item>Fleisch</item>
+        <item>Butter</item>
+        <item>Pilze</item>
+        <item>Tomaten</item>
+    </string-array>
+    <string-array name="screenshot_titles">
+        <item>Ihre Lebensmittel nach Ablaufdatum sortiert</item>
+        <item>Einfaches Einfügen mit Öffnungsdatum und Zeitspanne</item>
+        <item>Verhalten und Erscheinungsbild anpassbar</item>
+        <item>Offener Quelltext</item>
+        <item>Dunkles Thema</item>
+        <item>Dynamische Farben</item>
+    </string-array>
+    <string-array name="time_span">
+        <item>Tage</item>
+        <item>Monate</item>
+    </string-array>
+    <string name="connection_error">Verbindungsfehler</string>
+    <string name="no_internet_connection">Keine Internetverbindung</string>
+    <string name="product_not_found">Produkt nicht gefunden</string>
+    <string name="retry">Wiederholen</string>
+    <string name="contacts">Kontakte</string>
+    <string name="screenshot_titles_made_with_heart">Hergestellt mit ❤️</string>
+    <string name="please_scan_a_barcode">Bitte scannen Sie einen Strichcode</string>
+    <string name="getting_product_info">Produktinformationen abrufen…</string>
+    <string name="scanning_error">Scanfehler</string>
+    <string name="enable_screen_protection">Bildschirmschutz aktivieren</string>
+    <string name="protect_your_screen">Schützen Sie Ihren Bildschirm vor Screenshots und Bildschirmaufzeichnungen.</string>
+    <string name="privacy">Datenschutz</string>
+    <string name="opened">Geöffnet</string>
+    <string name="screenshot_titles_barcode_scanner">Strichcode-Scanner</string>
+    <string name="apply">Anwenden</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="debug_options">Debug-Optionen</string>
+    <string name="language">Sprache</string>
+    <string name="monochrome_icons">Monochrome Symbole</string>
+    <string name="quantity">Menge</string>
+    <string name="add">Hinzufügen</string>
+    <string name="remove">Entfernen</string>
+    <string name="notifications_disabled">Benachrichtigungen deaktiviert</string>
+    <string name="notifications_disabled_message">Sie haben Benachrichtigungen dauerhaft deaktiviert. Um Benachrichtigungen über abgelaufene Lebensmittel zu erhalten, müssen Sie diese manuell in den Einstellungen des Telefons aktivieren.</string>
+    <string name="open_settings">Einstellungen öffnen</string>
+    <string name="search">Suchen…</string>
+    <string name="clear_all_items">Alle Einträge löschen</string>
+    <string name="clear_all_items_confirmation" tools:ignore="MissingTranslation">Möchten Sie wirklich alle Einträge löschen? Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="delete_all" tools:ignore="MissingTranslation">Alles löschen</string>
+
+
+    <!-- Onboarding - Navigation -->
+    <string name="onboarding_next">Weiter</string>
+    <string name="onboarding_back">Zurück</string>
+    <string name="onboarding_skip">Überspringen</string>
+    <string name="onboarding_get_started">Loslegen</string>
+
+    <!-- Onboarding - Welcome Page -->
+    <string name="onboarding_welcome_title">Willkommen bei %1$s!</string>
+    <string name="onboarding_welcome_description">Es ist nicht immer einfach, den Überblick über die Haltbarkeitsdaten von Lebensmitteln zu behalten, besonders wenn Kühlschrank und Vorratsschrank gut gefüllt sind.\n\n%1$s hilft Ihnen dabei, Ihre Lebensmittelvorräte im Blick zu behalten, bevorstehende Ablaufdaten rechtzeitig zu erkennen und Lebensmittel besser zu nutzen, statt sie wegzuwerfen.</string>
+
+    <!-- Onboarding - Manage Food Page -->
+    <string name="onboarding_manage_title">Ihre Lebensmittel, gut organisiert</string>
+    <string name="onboarding_manage_description">Fügen Sie Ihre eingekauften Lebensmittel hinzu und geben Sie das jeweilige Haltbarkeitsdatum ein. Die Einträge werden automatisch nach Datum sortiert, sodass Sie sofort erkennen können, welche Lebensmittel Sie zuerst verbrauchen sollten.\n\nSie können außerdem nach Lebensmitteln suchen, ihre Angaben bearbeiten und Ihre Liste aktualisieren, wenn Sie etwas verbrauchen oder neu einkaufen.</string>
+
+    <!-- Onboarding - Notification Permission Page -->
+    <string name="onboarding_notifications_title">Keine Haltbarkeitsdaten mehr verpassen</string>
+    <string name="onboarding_notifications_description">Aktivieren Sie Benachrichtigungen, um rechtzeitig an bevorstehende Haltbarkeitsdaten Ihrer Lebensmittel erinnert zu werden.</string>
+    <string name="onboarding_notifications_enable">Benachrichtigungen aktivieren</string>
+    <string name="onboarding_notifications_enabled">Benachrichtigungen sind aktiviert!</string>
+    <string name="onboarding_notifications_optional">Sie können auch ohne Benachrichtigungen fortfahren und diese später in den Einstellungen aktivieren.</string>
+
+    <!-- Onboarding - Notification Time Page -->
+    <string name="onboarding_time_title">Uhrzeit für Erinnerungen wählen</string>
+    <string name="onboarding_time_description">Um wie viel Uhr möchten Sie Ihre täglichen Erinnerungen an die Haltbarkeitsdaten Ihrer Lebensmittel erhalten?</string>
+    <string name="onboarding_time_save">Uhrzeit speichern</string>
+    <string name="onboarding_time_saved">Uhrzeit für Erinnerungen gespeichert!</string>
+
+    <!-- Onboarding - Ready Page -->
+    <string name="onboarding_ready_title">Alles ist bereit!</string>
+    <string name="onboarding_ready_description">Jetzt können Sie damit beginnen, Ihre Lebensmittel und deren Haltbarkeitsdaten im Blick zu behalten.\n\nFügen Sie zunächst einige Lebensmittel aus Ihrem Kühlschrank oder Vorratsschrank hinzu. Wenn Ihre Liste wächst, hilft Ihnen %1$s dabei, zu erkennen, was Sie zuerst verbrauchen sollten, und die Haltbarkeitsdaten im Blick zu behalten.</string>
+    <string name="onboarding_ready_hint">Sie können Ihre Einstellungen jederzeit später ändern.</string>
+</resources>

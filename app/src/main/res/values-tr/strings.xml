@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Expiration Dates</string>
+    <string name="app_name_short">Food Expirations</string>
+    <string name="n_days_ago">%1$d gün önce</string>
+    <string name="yesterday">Dün</string>
+    <string name="today">Bugün</string>
+    <string name="tomorrow">Yarın</string>
+    <string name="in_n_days">%1$d gün sonra</string>
+    <string name="add_item">Öge ekle</string>
+    <string name="enable_screen_protection">Ekran korumasını etkinleştir</string>
+    <string name="protect_your_screen">Ekranınızı ekran görüntüleri ve ekran kayıtlarından koruyun.</string>
+    <string name="edit_item">Düzenle</string>
+    <string name="food_name">Gıda Adı</string>
+    <string name="expiration_date">Son Kullanma Tarihi</string>
+    <string name="please_select_a_date">Lütfen bir tarih seçin</string>
+    <string name="please_enter_a_food_name">Lütfen bir gıda adı girin</string>
+    <string name="insert">Ekle</string>
+    <string name="update">Güncelle</string>
+    <string name="cancel">İptal</string>
+    <string name="share">Paylaş</string>
+    <string name="leave_a_star_on_github">GitHub\'da yıldız verin</string>
+    <string name="write_a_review">Bir inceleme yazın</string>
+    <string name="source_code">Kaynak kodu</string>
+    <string name="features">Özellikler</string>
+    <string name="feature_list">
+        - Gıdaların son kullanma tarihlerine göre artan sırada bir liste gösterir\n
+        - Öğeleri ekleyin, düzenleyin ve silin\n
+        - Barkod tarayıcı ve Open Food Facts API kullanarak ürün bilgilerini alma\n
+        - Açılış tarihi\n
+        - Bildirimler
+    </string>
+    <string name="support_this_project">Bu projeyi destekleyin</string>
+    <string name="report_a_bug">Bir hata bildirin</string>
+    <string name="version_x">Sürüm %1$s</string>
+    <string name="app_description">%1$s, Lorenzo Vainigli ve diğer katkıda bulunanlar tarafından geliştirilen bir açık kaynak projesidir.\nBu uygulamanın kodu MIT lisansı altında yayınlanmış olup GitHub\'da bulunmaktadır.</string>
+    <string name="about_this_app">Bu uygulama hakkında</string>
+    <string name="privacy_policy">Gizlilik politikası</string>
+    <string name="contributors_list_title">Katkıda Bulunanlar</string>
+    <string name="contributors_list_subtitle">Bu kişiler, uygulamanın geliştirilmesine katkıda bulunmuştur.</string>
+    <string name="back">Geri</string>
+    <string name="no_items_found">Hiçbir öğe bulunamadı</string>
+    <string name="please_insert_one">Lütfen bir tane ekleyin</string>
+    <string name="menu">Menü</string>
+    <string name="settings">Ayarlar</string>
+    <string name="date_format">Tarih formatı</string>
+    <string name="date_format_desc">Öğelerde görmek istediğiniz tarih formatı.</string>
+    <string name="choose_the_date_format">Tarih formatını seçin</string>
+    <string name="locale_formats">Yerel formatlar</string>
+    <string name="other_formats">Diğer formatlar</string>
+    <string name="your_food_is_expiring">Gıdanız sona eriyor!</string>
+    <string name="notification_time">Bildirim zamanı</string>
+    <string name="notification_time_desc">
+        Her gün, aşağıdaki öğelerinizin bir listesini içeren bir bildirim alacaksınız:\n
+        - Zaten süresi dolmuş olanlar\n
+        - Bugünün tarihiyle süresi dolanlar\n
+        - Son kullanma tarihine bir gün kalanlar.
+    </string>
+    <string name="dynamic_colors">Dinamik renkler</string>
+    <string name="theme">Tema</string>
+    <string name="light">Açık</string>
+    <string name="system">Sistem</string>
+    <string name="dark">Koyu</string>
+    <string name="x_deleted">%1$s silindi</string>
+    <string name="undo">Geri al</string>
+    <string name="normal">Normal</string>
+    <string name="bold">Kalın</string>
+    <string name="extra_bold">Ekstra Kalın</string>
+    <string name="top_bar_font_style">Üst çubuk yazı tipi stili</string>
+    <string name="behaviour">Davranış</string>
+    <string name="appearance">Görünüm</string>
+    <string name="privacy">Gizlilik</string>
+    <string name="send_an_email">E-posta gönder</string>
+    <string name="contacts">İletişim</string>
+    <string name="contacts_text">Bu uygulama hakkında daha fazla bilgi almak, geri bildirim göndermek, hata bildirmek, özellik talep etmek veya sadece geliştiriciyle iletişime geçmek istiyorsanız, lütfen aşağıdaki düğmeyi kullanarak bir e-posta gönderin.\nHata raporları ve özellik talepleriniz varsa, bu uygulamanın GitHub deposunda bir issue açabilirsiniz.</string>
+    <string name="list">Liste</string>
+    <string name="opening_date">Açılış tarihi</string>
+    <string name="optional">isteğe bağlı</string>
+    <string name="time_span">Zaman aralığı</string>
+    <string name="please_enter_a_valid_number">Lütfen geçerli bir sayı girin</string>
+    <string name="ok">Tamam</string>
+    <string name="data_export_success">Veriler başarıyla dışa aktarıldı.</string>
+    <string name="data_export_error">Veri dışa aktarma sırasında bir hata oluştu.</string>
+    <string name="export_data">Verileri dışa aktar</string>
+    <string name="import_data">Verileri içe aktar</string>
+    <string name="data_exported">Veriler dışa aktarıldı</string>
+    <string name="connection_error">Bağlantı hatası</string>
+    <string name="getting_product_info">Ürün bilgisi alınıyor…</string>
+    <string name="no_internet_connection">İnternet bağlantısı yok</string>
+    <string name="please_scan_a_barcode">Lütfen bir barkod tarayın</string>
+    <string name="product_not_found">Ürün bulunamadı</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="scanning_error">Tarama hatası</string>
+    <string name="opened">Açıldı</string>
+    <string name="monochrome_icons">Tek renkli simgeler</string>
+    <string-array name="example_foods">
+        <item>Yumurta</item>
+        <item>Peynir</item>
+        <item>Süt</item>
+        <item>Jambon</item>
+        <item>Tereyağı</item>
+        <item>Mantar</item>
+        <item>Domates</item>
+    </string-array>
+    <string-array name="screenshot_titles">
+        <item>Gıdalarınız son kullanma tarihine göre sıralanmış</item>
+        <item>Açılış tarihi ve zaman aralığı ile kolay ekleme</item>
+        <item>Davranışı ve görünümü özelleştirin</item>
+        <item>Açık kaynak</item>
+        <item>Koyu tema</item>
+        <item>Dinamik renkler</item>
+    </string-array>
+    <string name="screenshot_titles_barcode_scanner">Barkod tarayıcı</string>
+    <string name="screenshot_titles_made_with_heart">❤️ ile yapıldı</string>
+    <string name="apply">Uygula</string>
+    <string name="select_language">Dil seçin</string>
+    <string name="debug_options">Hata Ayıklama Seçenekleri</string>
+    <string name="language">Dil</string>
+    <string-array name="time_span">
+        <item>Gün</item>
+        <item>Ay</item>
+    </string-array>
+    <string name="quantity">Miktar</string>
+    <string name="add">Ekle</string>
+    <string name="remove">Kaldır</string>
+    <string name="notifications_disabled">Bildirimler devre dışı</string>
+    <string name="notifications_disabled_message">Bildirimleri kalıcı olarak devre dışı bıraktınız. Son kullanma tarihi yaklaşan gıdalarla ilgili uyarılar almak için, bunları telefonun Ayarlar bölümünden elle etkinleştirmelisiniz.</string>
+    <string name="open_settings">Ayarları Aç</string>
+    <string name="search">Ara…</string>
+</resources>

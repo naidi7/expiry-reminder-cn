@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fecha de Caducidad de los Alimentos</string>
+    <string name="app_name_short">Caducidad de los alimentos</string>
+    <string name="n_days_ago">Hace %1$d días</string>
+    <string name="yesterday">Ayer</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="in_n_days">En %1$d días</string>
+    <string name="add_item">Añadir artículo</string>
+    <string name="edit_item">Editar artículo</string>
+    <string name="food_name">Nombre del producto</string>
+    <string name="expiration_date">Fecha de caducidad</string>
+    <string name="please_select_a_date">Por favor, seleccione la fecha</string>
+    <string name="please_enter_a_food_name">Por favor ingrese un nombre del producto</string>
+    <string name="insert">Insertar</string>
+    <string name="update">Actualizar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="share">Compartir</string>
+    <string name="leave_a_star_on_github">Valóranos en GitHub</string>
+    <string name="write_a_review">Déjanos tu opinión</string>
+    <string name="source_code">Código fuente</string>
+    <string name="features">Características</string>
+    <string name="feature_list">- Mostrar una lista con las fechas de caducidad de los alimentos en orden ascendente de tiempo
+\n - Agregar, editar y eliminar elementos
+\n - Recuperación de productos mediante escáner de código de barras y API Open Food Facts
+\n - Fecha de apertura
+\n - Notificaciones</string>
+    <string name="support_this_project">Apoya este proyecto</string>
+    <string name="report_a_bug">Reportar un error</string>
+    <string name="version_x">Versión %1$s</string>
+    <string name="app_description">%1$s es un proyecto de código abierto desarrollado por Lorenzo Vainigli y otros contribuyentes.\nEl código de esta aplicación es publicado bajo las licencias MIT, disponible en GitHub.</string>
+    <string name="about_this_app">Sobre esta aplicación</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="contributors_list_title">Colaboradores</string>
+    <string name="contributors_list_subtitle">Estas son las personas que han colaborado en el desarrollo de esta aplicación.</string>
+    <string name="back">Atrás</string>
+    <string name="no_items_found">No se encontraron artículos</string>
+    <string name="please_insert_one">Por favor, agregue uno</string>
+    <string name="your_food_is_expiring">¡Tu comida está caducando!</string>
+    <string name="menu">Menú</string>
+    <string name="settings">Configuración</string>
+    <string name="date_format">Formato de la fecha</string>
+    <string name="date_format_desc">El formato de la fecha que desea ver en los alimentos.</string>
+    <string name="choose_the_date_format">Selecciona el formato de Fecha</string>
+    <string name="locale_formats">Formatos locales</string>
+    <string name="other_formats">Otros formatos</string>
+    <string name="notification_time">Hora de notificación</string>
+    <string name="notification_time_desc">Cada día recibirás una notificación con una lista de tus artículos:
+\n - que ya han caducado
+\n - que caducan en la fecha actual
+\n - a los que les queda un día para la fecha de caducidad.</string>
+    <string name="dynamic_colors">Colores dinámicos</string>
+    <string name="theme">Tema</string>
+    <string name="light">Claro</string>
+    <string name="system">Sistema</string>
+    <string name="dark">Oscuro</string>
+    <string name="x_deleted">%1$s eliminado</string>
+    <string name="undo">Deshacer</string>
+    <string name="normal">Normal</string>
+    <string name="bold">Negrita</string>
+    <string name="extra_bold">Negrita extra</string>
+    <string name="top_bar_font_style">Estilo de fuente de la barra superior</string>
+    <string name="behaviour">Conducta</string>
+    <string name="appearance">Apariencia</string>
+    <string name="send_an_email">Enviar un e-mail</string>
+    <string name="contacts">Contactos</string>
+    <string name="contacts_text">Si desea obtener más información sobre esta aplicación, enviar comentarios, informar de un error, solicitar una función o simplemente ponerse en contacto con el desarrollador, envíe un correo electrónico utilizando el siguiente botón.\nEn caso de informes de errores y solicitudes de funciones, puede abrir una incidencia en el repositorio de GitHub de esta aplicación.</string>
+    <string name="list">Lista</string>
+    <string name="opening_date">Fecha de apertura</string>
+    <string name="optional">opcional</string>
+    <string name="time_span">Lapso de tiempo</string>
+    <string name="please_enter_a_valid_number">Por favor, introduce un número válido</string>
+    <string name="ok">OK</string>.
+    <string name="data_export_success">Datos exportados con éxito.</string>.
+    <string name="data_export_error">Se ha producido un error durante la exportación de datos.</string>
+    <string name="export_data">Exportar datos</string>
+    <string name="import_data">Importar datos</string>
+    <string name="clear_all_items">Eliminar todos los elementos</string>
+    <string name="clear_all_items_confirmation">¿Seguro que quieres eliminar todos los elementos? Esta acción no se puede deshacer.</string>
+    <string name="delete_all">Eliminar todo</string>
+    <string name="data_exported">Datos exportados</string>
+    <string-array name="example_foods">
+        <item>Huevos</item>
+        <item>Queso</item>
+        <item>Leche</item>
+        <item>Jamón</item>
+        <item>Mantequilla</item>
+        <item>Champiñones</item>
+        <item>Tomates</item>
+    </string-array>
+    <string-array name="screenshot_titles">
+        <item>Tus alimentos ordenados por fecha de caducidad</item>
+        <item>Fácil inserción con fecha de apertura y lapso de tiempo</item>
+        <item>Personalizar el comportamiento y la apariencia</item>
+        <item>Código abierto</item>
+        <item>Tema oscuro</item>
+        <item>Colores dinámicos</item>
+    </string-array>
+    <string-array name="time_span">
+        <item>Días</item>
+        <item>Meses</item>
+    </string-array>
+    <string name="connection_error">Fallo en la conexión</string>
+    <string name="no_internet_connection">Sin conexión a Internet</string>
+    <string name="please_scan_a_barcode">Por favor escanee un código de barras</string>
+    <string name="product_not_found">Producto no encontrado</string>
+    <string name="retry">Reintentar</string>
+    <string name="scanning_error">Error al escanear</string>
+    <string name="getting_product_info">Obteniendo información del producto…</string>
+    <string name="screenshot_titles_barcode_scanner">Escáner de código de barras</string>
+    <string name="screenshot_titles_made_with_heart">Hecho con ❤️</string>
+    <string name="opened">Abierto</string>
+    <string name="enable_screen_protection">Activar la protección de pantalla</string>
+    <string name="protect_your_screen">Protege tu pantalla de capturas y grabaciones de pantalla.</string>
+    <string name="privacy">Privacidad</string>
+    <string name="language">Idioma</string>
+    <string name="apply">Aplicar</string>
+    <string name="debug_options">Opciones de depuración</string>
+    <string name="monochrome_icons">Iconos monocromáticos</string>
+    <string name="select_language">Selecciona el idioma</string>
+    <string name="quantity">Cantidad</string>
+    <string name="add">Añadir</string>
+    <string name="remove">Eliminar</string>
+    <string name="notifications_disabled">Notificaciones desactivadas</string>
+    <string name="notifications_disabled_message">Has desactivado las notificaciones de forma permanente. Para recibir alertas sobre alimentos a punto de caducar, debes activarlas manualmente desde los Ajustes del teléfono.</string>
+    <string name="open_settings">Abrir ajustes</string>
+    <string name="search">Buscar…</string>
+
+
+    <!-- Onboarding - Navigation -->
+    <string name="onboarding_next">Siguiente</string>
+    <string name="onboarding_back">Atrás</string>
+    <string name="onboarding_skip">Omitir</string>
+    <string name="onboarding_get_started">Empezar</string>
+
+    <!-- Onboarding - Welcome Page -->
+    <string name="onboarding_welcome_title">¡Te damos la bienvenida a %1$s!</string>
+    <string name="onboarding_welcome_description">No siempre es fácil llevar un control de las fechas de caducidad, especialmente cuando el frigorífico y la despensa están llenos.\n\n%1$s te ayuda a recordar qué alimentos tienes en casa, estar al tanto de las próximas fechas de caducidad y aprovechar mejor la comida antes de que se desperdicie.</string>
+
+    <!-- Onboarding - Manage Food Page -->
+    <string name="onboarding_manage_title">Tus alimentos, en orden</string>
+    <string name="onboarding_manage_description">Añade los alimentos que compras e introduce su fecha de caducidad. Se ordenarán automáticamente por fecha para que puedas ver fácilmente cuáles debes consumir primero.\n\nTambién puedes buscar alimentos, editar sus datos y mantener tu lista actualizada a medida que los consumes o compras otros nuevos.</string>
+
+    <!-- Onboarding - Notification Permission Page -->
+    <string name="onboarding_notifications_title">No olvides las fechas de caducidad</string>
+    <string name="onboarding_notifications_description">Activa las notificaciones para recibir recordatorios antes de que caduquen tus alimentos.</string>
+    <string name="onboarding_notifications_enable">Activar notificaciones</string>
+    <string name="onboarding_notifications_enabled">¡Las notificaciones están activadas!</string>
+    <string name="onboarding_notifications_optional">También puedes continuar sin notificaciones y activarlas más tarde desde Ajustes.</string>
+
+    <!-- Onboarding - Notification Time Page -->
+    <string name="onboarding_time_title">Elige la hora de los recordatorios</string>
+    <string name="onboarding_time_description">¿A qué hora prefieres recibir los recordatorios diarios sobre las fechas de caducidad de tus alimentos?</string>
+    <string name="onboarding_time_save">Guardar hora</string>
+    <string name="onboarding_time_saved">¡Hora de los recordatorios guardada!</string>
+
+    <!-- Onboarding - Ready Page -->
+    <string name="onboarding_ready_title">¡Todo listo!</string>
+    <string name="onboarding_ready_description">Ya puedes empezar a llevar un control de tus alimentos y sus fechas de caducidad.\n\nEmpieza añadiendo algunos alimentos de tu frigorífico o despensa. A medida que crezca tu lista, %1$s te ayudará a saber qué consumir primero y a mantener las fechas de caducidad bajo control.</string>
+    <string name="onboarding_ready_hint">Puedes cambiar tus preferencias en cualquier momento desde Ajustes.</string>
+
+</resources>
